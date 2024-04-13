@@ -119,9 +119,11 @@ app.get("/payment/validate/:merchantTransactionId", async function (req, res) {
         if (response.data && response.data.code === "PAYMENT_SUCCESS") {
           // redirect to FE payment success status page
           res.send(response.data);
+          
         } else {
           // redirect to FE payment failure / pending status page
           res.send({ msg: "Payment failed or pending", data: response.data });
+          
         }
       })
       .catch(function (error) {
