@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "code": "PAYMENT_INITIATED",
+  "message": "Payment initiated",
+  "data": {
+    "merchantId": "PGTESTPAYUAT",
+    "merchantTransactionId": "xt0l1oluy25vik",
+    "instrumentResponse": {
+      "type": "PAY_PAGE",
+      "redirectInfo": {
+        "url": "https://mercury-uat.phonepe.com/transact/simulator?token=1y2GUZuxj7Vk1e0habnmMErfa27FquttZ66om",
+        "method": "GET"
+      }
+    }
+  }
+}
